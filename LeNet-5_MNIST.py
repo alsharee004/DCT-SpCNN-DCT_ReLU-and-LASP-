@@ -21,8 +21,8 @@ y_train = tf.keras.utils.to_categorical(y_train, 10)
 y_test = tf.keras.utils.to_categorical(y_test, 10)
 
 # Set the parameters
-NumIteration = 1
-EvalFreq = 1
+NumIteration = 30001
+EvalFreq = 30000
 BatchLength = 64
 Size = [28, 28, 1]
 input_size = [28, 28]
